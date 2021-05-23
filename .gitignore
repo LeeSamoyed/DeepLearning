@@ -1,0 +1,5 @@
+;;extensions to ignore
+*.log
+
+;;directories to ignore
+.idea/

@@ -102,6 +102,7 @@ def load_data():
 
 # 获取数据
 train_data, test_data = load_data()
+print(train_data.shape)
 # 创建网络
 net = Network(13)
 # 启动训练

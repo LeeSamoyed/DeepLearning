@@ -60,7 +60,7 @@ class Network(object):
 # 数据load函数
 def load_data():
     # 读入训练数据
-    datafile = './housing.csv'
+    datafile = './datasets/housing.csv'
     data = np.fromfile(datafile, sep=' ')
     # print(data)
 
